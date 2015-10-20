@@ -1,7 +1,9 @@
 header {
-	width:100%; /* Establecemos que el header abarque el 100% del documento */
+	width:110%; /* Establecemos que el header abarque el 100% del documento */
 	overflow:hidden; /* Eliminamos errores de float */
 	background:#252932;
+	opacity:0.9;
+    filter:alpha(opacity=90);
 	margin-bottom:20px;
 	text-align: center;
 }
@@ -11,7 +13,7 @@ header {
 	max-width:1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
 	margin:auto; /* Centramos los elementos */
 	overflow:hidden; /* Eliminamos errores de float */
-}
+	}
 
 header .logo {
 	color:#f2f2f2;
@@ -83,5 +85,10 @@ header nav a:hover {
 }
 body {
     color: white;
-    background-color: #8AA7FF;
-	font-family: Arial, Helvetica, sans-serif
+    background: #8AA7FF;
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+}
