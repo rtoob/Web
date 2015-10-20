@@ -92,3 +92,13 @@ body {
 	font-size: 1em;
 	line-height: 1.5em;
 }
+button {
+	border-bottom: 0em;
+	background: #252932;
+	color: #ffffff;
+	opacity:0.9;
+    filter:alpha(opacity=90);
+	margin-bottom:20px;
+	text-align: center;	
+	margin-left: 60px;	
+}
