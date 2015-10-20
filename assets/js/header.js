@@ -1,3 +1,4 @@
+<!-- Función de cámbio de cabecero" /-->
 $(document).ready(function(){
 	
 	$(window).scroll(function(){
