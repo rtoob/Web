@@ -27,8 +27,20 @@
 	</header>
 
 	<section class="contenido wrapper">
-	<p>Encendido y apagado del LED<br></p>
 	
+	<img id="myImage" onclick="changeImage()" src="button-red.png" width="100" height="180">
+
+<script>
+function changeImage() {
+    var image = document.getElementById('myImage');
+    if (image.src.match("button-red.png")) {
+        image.src = "button-red.png";
+    } else {
+        image.src = "button-green.png";
+    }
+}
+</script>
+
 	</section>
 
 </body>	
